@@ -1,0 +1,549 @@
+
+/*** 
+
+====================================================================
+  Anim Icons
+====================================================================
+
+***/
+
+  
+.reveal {
+    position: relative;
+    display: inline-flex;
+    visibility: hidden;
+    overflow: hidden;
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        transform-origin: left;
+    }   
+}
+
+.bg-parallax{
+    background-repeat: no-repeat;
+    img{
+        opacity: 0;
+        @include media-breakpoint-down(lg){
+            opacity: 1;
+        }
+    }
+}
+  
+
+.anim-icons {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width: calc(var(--container-width) - 30px);
+    margin: 0 auto;
+}
+
+[text-split] {
+    opacity: 0;
+}
+
+.word {
+    overflow: hidden;
+    padding-bottom: 0.1em;
+    margin-bottom: -0.1em;
+    transform-origin: bottom;
+}
+
+.anim-icons.full-width {
+    max-width: 100%;
+}
+
+.anim-icons .icon {
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.icon-turbines{
+    width: 651px;
+    height: 304px;
+    background-image: url(../images/icons/icon-turbines.png);
+}
+
+.icon-turbines-2 {
+    width: 465px;
+    height: 283px;
+    background-image: url(../images/icons/icon-turbines-2.png);
+}
+
+.icon-turbines-3 {
+    width: 270px;
+    height: 312px;
+    background-image: url(../images/icons/icon-turbines-3.png);
+}
+
+.icon-turbines-4 {
+    width: 497px;
+    height: 535px;
+    background-image: url(../images/icons/icon-turbines-4.png);
+}
+
+.icon-turbines-5 {
+    width: 823px;
+    height: 652px;
+    background-image: url(../images/icons/icon-turbines-5.png);
+}
+
+.icon-turbines-6 {
+    width: 202px;
+    height: 179px;
+    background-image: url(../images/icons/icon-turbines-6.png);
+}
+
+.icon-turbines-7 {
+    width: 549px;
+    height: 433px;
+    background-image: url(../images/icons/icon-turbines-7.png);
+}
+
+.icon-turbines-8 {
+    width: 429px;
+    height: 355px;
+    background-image: url(../images/icons/icon-turbines-8.png);
+}
+
+.icon-turbines-9 {
+    width: 522px;
+    height: 431px;
+    background-image: url(../images/icons/icon-turbines-9.png);
+}
+
+.icon-turbines-10 {
+    width: 465px;
+    height: 283px;
+    background-image: url(../images/icons/icon-turbines-10.png);
+}
+
+.icon-turbines-11 {
+    width: 497px;
+    height: 534px;
+    background-image: url(../images/icons/icon-turbines-11.png);
+}
+
+.icon-turbines-12 {
+    width: 465px;
+    height: 283px;
+    background-image: url(../images/icons/icon-turbines-12.png);
+}
+
+.icon-solar {
+    width: 421px;
+    height: 301px;
+    background-image: url(../images/icons/icon-solar.png);
+}
+
+.icon-solar-2 {
+    width: 421px;
+    height: 301px;
+    background-image: url(../images/icons/icon-solar-2.png);
+}
+
+.icon-solar-3 {
+    width: 939px;
+    height: 578px;
+    background-image: url(../images/icons/icon-solar-3.png);
+}
+
+.icon-solar-4 {
+    width: 430px;
+    height: 355px;
+    background-image: url(../images/icons/icon-solar-4.png);
+}
+
+.icon-solar-5 {
+    width: 475px;
+    height: 397px;
+    background-image: url(../images/icons/icon-solar-5.png);
+}
+
+.icon-solar-6 {
+    width: 480px;
+    height: 397px;
+    background-image: url(../images/icons/icon-solar-6.png);
+}
+
+.icon-border {
+    width: 5px;
+    height: 62px;
+    background-image: url(../images/icons/icon-border.png);
+}
+
+.icon-border-2 {
+    width: 5px;
+    height: 62px;
+    background-image: url(../images/icons/icon-border-2.png);
+}
+
+.icon-border-3 {
+    width: 6px;
+    height: 63px;
+    background-image: url(../images/icons/icon-border-3.png);
+}
+
+.icon-arrow {
+    width: 97px;
+    height: 65px;
+    background-image: url(../images/icons/icon-arrow.png);
+}
+
+.icon-dots {
+    width: 503px;
+    height: 552px;
+    background-image: url(../images/icons/icon-dots.png);
+}
+
+.icon-dots-2 {
+    width: 300px;
+    height: 600px;
+    background-image: url(../images/icons/icon-dots-2.png);
+}
+
+.icon-dots-3 {
+    width: 913px;
+    height: 1131px;
+    background-image: url(../images/icons/icon-dots-3.png);
+}
+
+.icon-bulb {
+    width: 180px;
+    height: 179px;
+    background-image: url(../images/icons/icon-bulb.png);
+}
+
+.icon-bulb-2 {
+    width: 158px;
+    height: 273px;
+    background-image: url(../images/icons/icon-bulb-2.png);
+}
+
+.icon-bulb-3 {
+    width: 201px;
+    height: 343px;
+    background-image: url(../images/icons/icon-bulb-3.png);
+}
+
+.icon-bulb-4 {
+    width: 154px;
+    height: 182px;
+    background-image: url(../images/icons/icon-bulb-4.png);
+}
+
+.icon-bulb-5 {
+    width: 67px;
+    height: 150px;
+    background-image: url(../images/icons/icon-bulb-5.png);
+}
+
+.icon-bulb-6 {
+    width: 150px;
+    height: 161px;
+    background-image: url(../images/icons/icon-bulb-6.png);
+}
+
+.icon-bulb-7 {
+    width: 589px;
+    height: 360px;
+    background-image: url(../images/icons/icon-bulb-7.png);
+}
+
+.icon-quote {
+    width: 82px;
+    height: 82px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/icons/icon-quote.png);
+}
+
+.icon-sm-arrow{
+    width: 12px;
+    height: 13px;
+    background-image: url(../images/icons/icon-sm-arrow.png);
+}
+
+.icon-sm-arrow-2 {
+    display: inline-block;
+    width: 12px;
+    height: 13px;
+    background-image: url(../images/icons/icon-sm-arrow-2.png);
+}
+
+.icon-energy {
+    width: 135px;
+    height: 255px;
+    background-image: url(../images/icons/icon-energy.png);
+}
+
+.icon-home{
+    width: 314px;
+    height: 271px;
+    background-image: url(../images/icons/icon-home.png);
+}
+
+.bg-home{
+    width: 392px;
+    height: 310px;
+    background-image: url(../images/icons/bg-home.png);
+}
+
+.bg-shapes {
+    width: 1894px;
+    height: 1126px;
+    background-image: url(../images/icons/bg-shapes.png);
+}
+
+.bg-shapes-2 {
+    width: 1900px;
+    height: 1194px;
+    background-image: url(../images/icons/bg-shapes-2.png);
+}
+
+.bg-shapes-3 {
+    width: 1897px;
+    height: 698px;
+    background-image: url(../images/icons/bg-shapes-3.png);
+}
+
+
+
+
+.bounce-y{
+    animation: bounce-y 10s infinite linear;
+}
+
+.bounce-x{
+    animation: bounce-x 10s infinite linear;
+}
+
+.zoom-one{
+    animation: zoom-one 10s infinite linear;
+}
+
+.zoom-two{
+    animation: zoom-two 5s infinite linear;
+}
+
+@keyframes float{
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce-y {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounce-x {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(30px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes zoom-one {
+    0% {
+        transform: scale(.95);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(.95);
+    }
+}
+
+@keyframes zoom-two {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+.overlay-anim {
+    position: relative;
+    &:after {
+        background: rgba(255, 255, 255, 0.3);
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 0;
+        opacity: 1;
+        z-index: 9;
+        pointer-events: none;
+    }
+    &:hover{
+        &:after {
+            height: 100%;
+            opacity: 0;
+            transition: all 400ms linear;
+        }
+    }   
+}
+
+.overlay-anim-two {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0;
+    &:hover {
+        &:after {
+            left: 0;
+            right: 0;
+            opacity: 0;
+            transition: all 400ms linear;
+        }
+    }
+    &:after {
+        background: rgba(255, 255, 255, .3);
+        bottom: 0;
+        content: "";
+        left: 50%;
+        position: absolute;
+        right: 51%;
+        top: 0;
+        opacity: 1;
+        pointer-events: none;
+        transition: all 300ms linear;
+    }
+}
+
+
+
+// Animated Moving Circles
+
+.circle {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    left: -10px;
+    top: -10px;
+    border-radius: 100%;
+    z-index: 1;
+    pointer-events: none;
+    z-index: 10000;
+    transform: scale(1);
+    @supports (mix-blend-mode: difference) {
+        background-color: white;
+        mix-blend-mode: difference;
+    }
+    @include for-md{
+        display: none !important;
+    }
+}
+
+.circle-follow {
+    position: fixed;
+    mix-blend-mode: difference;
+    width: 30px;
+    height: 30px;
+    left: -21px;
+    top: -21px;
+    border-radius: 100%;
+    z-index: 1;
+    user-select: none;
+    pointer-events: none;
+    z-index: 10000;
+    transform: scale(1);
+    @supports (mix-blend-mode: difference) {
+        border: 1px solid #fff;
+        mix-blend-mode: difference;
+    }
+    @include for-md {
+        display: none !important;
+    }
+}
+
+
+/* Animate 1 */
+.owl-carousel{
+    .animate-7,
+    .animate-6,
+    .animate-5,
+    .animate-4,
+    .animate-3,
+    .animate-2,
+    .animate-1{
+        opacity: 0;
+        transform: translateY(100px);
+        transition: all 500ms ease;
+    }
+    .animate-x {
+        opacity: 0;
+        transform: translateX(100px);
+        transition: all 500ms ease;
+    }
+    
+    .active{
+        .animate-7,
+        .animate-6,
+        .animate-5,
+        .animate-4,
+        .animate-3,
+        .animate-2,
+        .animate-1 {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .animate-2 {
+            transition-delay: 300ms;
+        }
+        .animate-3 {
+            transition-delay: 600ms;
+        }
+        .animate-4 {
+            transition-delay: 900ms;
+        }
+        .animate-5 {
+            transition-delay: 1200ms;
+        }
+        .animate-6 {
+            transition-delay: 1500ms;
+        }
+        .animate-7 {
+            transition-delay: 1800ms;
+        }
+    }
+}
+

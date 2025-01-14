@@ -1,0 +1,213 @@
+$flaticon_mycollection-font: "flaticon_mycollection";
+
+@font-face {
+    font-family: $flaticon_mycollection-font;
+    src: url("./flaticon_mycollection.ttf?b0c08814be09cd0311826d8f340460de") format("truetype"),
+url("./flaticon_mycollection.woff?b0c08814be09cd0311826d8f340460de") format("woff"),
+url("./flaticon_mycollection.woff2?b0c08814be09cd0311826d8f340460de") format("woff2"),
+url("./flaticon_mycollection.eot?b0c08814be09cd0311826d8f340460de#iefix") format("embedded-opentype"),
+url("./flaticon_mycollection.svg?b0c08814be09cd0311826d8f340460de#flaticon_mycollection") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_mycollection !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_mycollection-map: (
+    "renewable-energy": "\f101",
+    "solar-energy": "\f102",
+    "solar-panel": "\f103",
+    "solar-panel-1": "\f104",
+    "solar-panels": "\f105",
+    "power-generation": "\f106",
+    "battery-charge": "\f107",
+    "solar-activity": "\f108",
+    "solar-panel-2": "\f109",
+    "solar-energy-1": "\f10a",
+    "solar-energy-2": "\f10b",
+    "solar-house": "\f10c",
+    "solar-cell": "\f10d",
+    "solar-panels-1": "\f10e",
+    "solar-house-1": "\f10f",
+    "solar-energy-3": "\f110",
+    "renewable-energy-1": "\f111",
+    "solar-house-2": "\f112",
+    "solar-panel-3": "\f113",
+    "lighting": "\f114",
+    "maintenance": "\f115",
+    "bolt": "\f116",
+    "renewable-energy-2": "\f117",
+    "bulb": "\f118",
+    "solar-energy-4": "\f119",
+    "green-energy": "\f11a",
+    "windmill": "\f11b",
+    "solar-panel-4": "\f11c",
+    "sun": "\f11d",
+    "setting": "\f11e",
+    "backup": "\f11f",
+    "customer-service": "\f120",
+    "solution": "\f121",
+    "international": "\f122",
+    "air-freight": "\f123",
+    "travel": "\f124",
+    "windmill-1": "\f125",
+    "charge": "\f126",
+    "solar-panel-5": "\f127",
+    "battery": "\f128",
+    "wind-energy": "\f129",
+    "solar-panel-6": "\f12a",
+    "renewable-energy-3": "\f12b",
+    "energy": "\f12c",
+    "solar-panel-7": "\f12d",
+    "wind-power": "\f12e",
+    "solar-energy-5": "\f12f",
+);
+
+.flaticon-renewable-energy:before {
+    content: map-get($flaticon_mycollection-map, "renewable-energy");
+}
+.flaticon-solar-energy:before {
+    content: map-get($flaticon_mycollection-map, "solar-energy");
+}
+.flaticon-solar-panel:before {
+    content: map-get($flaticon_mycollection-map, "solar-panel");
+}
+.flaticon-solar-panel-1:before {
+    content: map-get($flaticon_mycollection-map, "solar-panel-1");
+}
+.flaticon-solar-panels:before {
+    content: map-get($flaticon_mycollection-map, "solar-panels");
+}
+.flaticon-power-generation:before {
+    content: map-get($flaticon_mycollection-map, "power-generation");
+}
+.flaticon-battery-charge:before {
+    content: map-get($flaticon_mycollection-map, "battery-charge");
+}
+.flaticon-solar-activity:before {
+    content: map-get($flaticon_mycollection-map, "solar-activity");
+}
+.flaticon-solar-panel-2:before {
+    content: map-get($flaticon_mycollection-map, "solar-panel-2");
+}
+.flaticon-solar-energy-1:before {
+    content: map-get($flaticon_mycollection-map, "solar-energy-1");
+}
+.flaticon-solar-energy-2:before {
+    content: map-get($flaticon_mycollection-map, "solar-energy-2");
+}
+.flaticon-solar-house:before {
+    content: map-get($flaticon_mycollection-map, "solar-house");
+}
+.flaticon-solar-cell:before {
+    content: map-get($flaticon_mycollection-map, "solar-cell");
+}
+.flaticon-solar-panels-1:before {
+    content: map-get($flaticon_mycollection-map, "solar-panels-1");
+}
+.flaticon-solar-house-1:before {
+    content: map-get($flaticon_mycollection-map, "solar-house-1");
+}
+.flaticon-solar-energy-3:before {
+    content: map-get($flaticon_mycollection-map, "solar-energy-3");
+}
+.flaticon-renewable-energy-1:before {
+    content: map-get($flaticon_mycollection-map, "renewable-energy-1");
+}
+.flaticon-solar-house-2:before {
+    content: map-get($flaticon_mycollection-map, "solar-house-2");
+}
+.flaticon-solar-panel-3:before {
+    content: map-get($flaticon_mycollection-map, "solar-panel-3");
+}
+.flaticon-lighting:before {
+    content: map-get($flaticon_mycollection-map, "lighting");
+}
+.flaticon-maintenance:before {
+    content: map-get($flaticon_mycollection-map, "maintenance");
+}
+.flaticon-bolt:before {
+    content: map-get($flaticon_mycollection-map, "bolt");
+}
+.flaticon-renewable-energy-2:before {
+    content: map-get($flaticon_mycollection-map, "renewable-energy-2");
+}
+.flaticon-bulb:before {
+    content: map-get($flaticon_mycollection-map, "bulb");
+}
+.flaticon-solar-energy-4:before {
+    content: map-get($flaticon_mycollection-map, "solar-energy-4");
+}
+.flaticon-green-energy:before {
+    content: map-get($flaticon_mycollection-map, "green-energy");
+}
+.flaticon-windmill:before {
+    content: map-get($flaticon_mycollection-map, "windmill");
+}
+.flaticon-solar-panel-4:before {
+    content: map-get($flaticon_mycollection-map, "solar-panel-4");
+}
+.flaticon-sun:before {
+    content: map-get($flaticon_mycollection-map, "sun");
+}
+.flaticon-setting:before {
+    content: map-get($flaticon_mycollection-map, "setting");
+}
+.flaticon-backup:before {
+    content: map-get($flaticon_mycollection-map, "backup");
+}
+.flaticon-customer-service:before {
+    content: map-get($flaticon_mycollection-map, "customer-service");
+}
+.flaticon-solution:before {
+    content: map-get($flaticon_mycollection-map, "solution");
+}
+.flaticon-international:before {
+    content: map-get($flaticon_mycollection-map, "international");
+}
+.flaticon-air-freight:before {
+    content: map-get($flaticon_mycollection-map, "air-freight");
+}
+.flaticon-travel:before {
+    content: map-get($flaticon_mycollection-map, "travel");
+}
+.flaticon-windmill-1:before {
+    content: map-get($flaticon_mycollection-map, "windmill-1");
+}
+.flaticon-charge:before {
+    content: map-get($flaticon_mycollection-map, "charge");
+}
+.flaticon-solar-panel-5:before {
+    content: map-get($flaticon_mycollection-map, "solar-panel-5");
+}
+.flaticon-battery:before {
+    content: map-get($flaticon_mycollection-map, "battery");
+}
+.flaticon-wind-energy:before {
+    content: map-get($flaticon_mycollection-map, "wind-energy");
+}
+.flaticon-solar-panel-6:before {
+    content: map-get($flaticon_mycollection-map, "solar-panel-6");
+}
+.flaticon-renewable-energy-3:before {
+    content: map-get($flaticon_mycollection-map, "renewable-energy-3");
+}
+.flaticon-energy:before {
+    content: map-get($flaticon_mycollection-map, "energy");
+}
+.flaticon-solar-panel-7:before {
+    content: map-get($flaticon_mycollection-map, "solar-panel-7");
+}
+.flaticon-wind-power:before {
+    content: map-get($flaticon_mycollection-map, "wind-power");
+}
+.flaticon-solar-energy-5:before {
+    content: map-get($flaticon_mycollection-map, "solar-energy-5");
+}

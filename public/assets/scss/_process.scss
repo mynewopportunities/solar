@@ -1,0 +1,143 @@
+/*** 
+
+====================================================================
+    Prcess Section 
+====================================================================
+
+***/
+
+.process-section {
+    position: relative;
+    padding: 120px 0;
+    .icon-solar-3 {
+        position: absolute;
+        bottom: 0;
+        left: -230px;
+        @include media-breakpoint-down(xl){display: none;}
+    }
+    .icon-bulb-7 {
+        position: absolute;
+        right: -115px;
+        bottom: 155px;
+        @include media-breakpoint-down(xl){display: none;}
+    }
+    .outer-box {
+        position: relative;
+        padding: 60px 0 10px;
+        background-color: var(--theme-color1);
+    }
+}
+
+.process-block {
+    margin-bottom: 50px;
+    &:last-child {
+        .inner-box {
+            &:before {display: none;}
+        }
+    }
+    &:nth-child(2) {
+        .inner-box {
+            &::before {
+                transform: scaleY(-1);
+            }
+        }
+    }
+    .inner-box {
+        position: relative;
+        padding: 0 58px;
+        display: block;
+        text-align: center;
+        @include media-breakpoint-down(xl){
+            padding: 0 20px;
+        }
+        @include media-breakpoint-down(lg){
+            padding: 0;
+        }
+        &:before {
+            content: "";
+            position: absolute;
+            top: 50px;
+            right: -120px;
+            width: 218px;
+            height: 34px;
+            background-image: url(../images/icons/icon-border.png);
+            @include media-breakpoint-down(lg){
+                display: none;
+            }
+        }
+        &:hover {
+            .icon-box{
+                .icon {
+                    transform: scaleX(-1);
+                    color: var(--theme-color-light);
+                    background-color: var(--theme-color-dark);
+                }
+                .count{
+                    background-color: var(--theme-color-light);
+                    color: var(--theme-color2);
+                }
+            }
+        }
+        .icon-box {
+            position: relative;
+            display: inline-block;
+            .icon{
+                position: relative;
+                display: block;
+                width: 118px;
+                height: 118px;
+                line-height: 118px;
+                font-size: 45px;
+                border-radius: 50%;
+                color: var(--theme-color1);
+                background: var(--theme-color-light);
+                margin: 0 auto 45px;
+                text-align: center;
+                @include transition(all 300ms ease);
+                z-index: 3;
+                @include media-breakpoint-down(lg){
+                    margin-bottom: 20px;
+                }
+                &:after {
+                    content: "";
+                    position: absolute;
+                    top: -8px;
+                    left: -8px;
+                    right: -8px;
+                    bottom: -8px;
+                    border-radius: 50%;
+                    border: 1px dashed var(--theme-color-light);
+                    @include transition(all 300ms ease);
+                }
+            }
+            .count {
+                position: absolute;
+                top: 0;
+                right: -15px;
+                width: 46px;
+                height: 46px;
+                line-height: 46px;
+                font-size: 18px;
+                @include title-font;
+                font-weight: 700;
+                border-radius: 50%;
+                color: var(--theme-color-light);
+                background-color: var(--theme-color-dark);
+                text-align: center;
+                @include transition(all 300ms ease);
+                z-index: 3;
+            }
+        }
+
+        .title {
+            position: relative;
+            color: var(--theme-color-light);
+            margin-bottom: 12px;
+        }
+        .text {
+            position: relative;
+            color: var(--theme-color-light);
+            font-size: 14px;
+        }
+    }
+}
